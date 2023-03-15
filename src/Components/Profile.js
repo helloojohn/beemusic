@@ -1,17 +1,19 @@
 import React from "react";
-import { RxCaretDown } from "react-icons/rx";
+import { RxCaretRight } from "react-icons/rx";
+import John from "../image/john.jpeg"
 
 function Profile() {
-  return (
-    <div className="profile">
-      <img src="" alt="" />
-      <p className="user-name">John Tayo</p>
-      <i>
-        {" "}
-        <RxCaretDown />{" "}
-      </i>
-    </div>
-  );
+    return (
+      <div className="profile">
+        <div className="pic">
+          <img src={John} alt="" />
+        </div>
+        <p className="user-name">John Tayo</p>
+        <i>
+          <RxCaretRight />
+        </i>
+      </div>
+    );
 }
 
 export { Profile };

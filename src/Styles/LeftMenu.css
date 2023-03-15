@@ -3,9 +3,11 @@
     height: 100%;
     min-height: 100vh;
     background: #fff;
-    padding: 25px 20px 25px 20px;
     overflow: hidden;
     transition: all 0.3  ease;
+}
+.wrapper {
+    padding: 25px 20px;
 }
 
 /* Logo section */
@@ -95,10 +97,17 @@
 }
 
 
-.menuContainer ul li:hover a, 
-.menuContainer ul li.active a {
+.menuContainer ul li:hover a {
     color: #fff;
     background: #000;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.03s;
+}
+
+.menuContainer ul li.active a {
+    color: #fff;
+    background: #000000;
     border-radius: 10px;
     padding: 10px;
     transition: 0.03s;
@@ -109,4 +118,44 @@
     margin-top: 20px;
 }
 
-/* Collection section */
+/* Profile section */
+.profile {
+    left: 200;
+    border-top: 2px solid #b0b0b0;
+    margin-top: 30px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile i {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 6px;
+    margin-left: 50px;
+
+}
+
+.pic {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #efa021;
+    border-radius: 100px;
+}
+
+.pic > img {
+    /* width: 30px; */
+    height: 30px;
+    border-radius: 100px;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: 600;
+}

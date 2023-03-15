@@ -10,21 +10,28 @@ import { Profile} from "./Profile"
 function LeftMenu() {
     return (
       <div className="leftMenu">
-        <div className="logoContainer">
-          <div className="logo">
-            <img src={bees} className="bee" alt="logo" />
-            <h2>
-              <span className="music">Bee</span>Music
-            </h2>
+        <div className="wrapper">
+          <div className="logoContainer">
+            <div className="logo">
+              <img src={bees} className="bee" alt="logo" />
+              <h2>
+                <span className="music">Bee</span>Music
+              </h2>
+            </div>
+            <div className="menu-open">
+              <i>
+                <MdMenuOpen />
+              </i>
+            </div>
           </div>
-          <div className='menu-open'>
-            <i>
-              <MdMenuOpen />
-            </i>
-          </div>
+
+          <Menu
+            title={"Menu"}
+            menuObject={MenuList}
+            discoverObject={DiscoverList}
+            collectionObject={CollectionList}
+          />
         </div>
-        
-        <Menu title={'Menu'} menuObject={MenuList} discoverObject={DiscoverList} collectionObject={CollectionList} />
         <Profile />
       </div>
     );

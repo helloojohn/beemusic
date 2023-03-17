@@ -1,14 +1,12 @@
 import './App.css';
-import { LeftMenu } from './Components/LeftMenu';
-import { MainContainer } from './Components/MainContainer';
-import { RightMenu } from './Components/RightMenu';
+
+import { Login } from './Components/Login';
+
 
 function App() {
   return (
     <div className="App">
-      <LeftMenu />
-      <MainContainer />
-      <RightMenu />
+      <Login />
     </div>
   );
 }

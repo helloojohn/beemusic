@@ -13,7 +13,7 @@ function LeftMenu() {
         <div className="wrapper">
           <div className="logoContainer">
             <div className="logo">
-              <img src={bees} className="bee" alt="logo" />
+              <img src={bees} className="bees" alt="logo" />
               <h2>
                 <span className="music">Bee</span>Music
               </h2>

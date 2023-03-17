@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5px;
+    margin: 10px 0 30px 0;
     gap: 30px;
 }
 
@@ -58,20 +58,19 @@
     color: #656464;
     display: flex;
     align-items: center;
-    font-size: 16px;
-    padding: 10px 10px;
-    margin-bottom: 5px;
+    /* font-size: 0.875rem; */
+    padding: 5px 10px;
 }
 
 .menuContainer ul li a i {
-    font-size: 20px;
+    font-size: 24px;
     margin-right: 15px;
     display: flex;
     justify-self: center;
 }
 
 .menuContainer ul li a span {
-    font-size: 16px;
+    font-size: 0.875rem;
     font-weight: 600;
 }
 
@@ -101,7 +100,7 @@
     color: #090909;
     background: #efa0210e;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 10px;
     transition: 0.03s;
 }
 
@@ -122,7 +121,7 @@
 .profile {
     left: 200;
     border-top: 2px solid #b0b0b0;
-    /* margin-top: 15px; */
+    margin-top: 90px;
     padding-top: 15px;
     display: flex;
     align-items: center;

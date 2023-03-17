@@ -15,9 +15,9 @@ function LeftMenu() {
         <div className="logoContainer">
           <div className="logo">
             <img src={bees} className="bees" alt="logo" />
-            <h2>
+            <h1>
               <span className="music">Bee</span>Music
-            </h2>
+            </h1>
           </div>
           <div className="menu-open">
             <i>
@@ -36,6 +36,6 @@ function LeftMenu() {
       <Profile />
     </div>
   );
-}
+};
 
 export { LeftMenu };

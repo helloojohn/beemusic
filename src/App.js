@@ -3,7 +3,7 @@ import "./App.css";
 import { Login } from "./Components/Login/Login";
 import { useStateProvider } from "./Utility/StateProvder";
 import { reducerCases } from "./Utility/Constant";
-import { LeftMenu } from "./Components/Sections/Menu/LeftMenu";
+import { Home } from "./Components/Home/Home";
 
 function App() {
   const [{ token }, dispatch] = useStateProvider();
@@ -16,7 +16,7 @@ function App() {
     }
   }, [token, dispatch]);
 
-  return <div className="App">{token ? <LeftMenu /> : <Login />}</div>;
+  return <div className="App">{token ? <Home /> : <Login />}</div>;
 }
 
 export default App;

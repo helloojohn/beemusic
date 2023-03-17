@@ -1,7 +1,7 @@
 import React from "react";
 import bees from "../../../image/bees.svg";
-import "../../../Components/Sections/Menu/Menu";
-import "../../../Components/Sections/Menu/LeftMenu.css"
+import "./Menu";
+import "./LeftMenu.css";
 
 import { MdMenuOpen } from "react-icons/md";
 import { Menu } from "./Menu";

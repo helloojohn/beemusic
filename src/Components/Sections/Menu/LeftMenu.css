@@ -137,8 +137,8 @@
 }
 
 .pic {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30x;
     margin-left: 30px;
     padding: 2px;
     display: flex;
@@ -150,11 +150,11 @@
 
 .pic > img {
     /* width: 30px; */
-    height: 30px;
-    border-radius: 100px;
+    /* height: 30px; */
+    border-radius: 100%;
 }
 
 .user-name {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }

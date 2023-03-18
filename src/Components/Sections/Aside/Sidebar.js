@@ -1,10 +1,15 @@
 import React from "react";
+import { Artist } from "./Artist";
+import { FavouritArtist } from "./FavouritArtist";
+import { Shortcut } from "./Shortcut";
 import "./Sidebar.css";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h2>Sidebar</h2>
+      <Shortcut />
+      <FavouritArtist />
+      <Artist />
     </div>
   );
 }

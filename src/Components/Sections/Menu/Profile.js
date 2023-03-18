@@ -1,12 +1,12 @@
 import React from "react";
 import { RxCaretRight } from "react-icons/rx";
-import John from "../../../image/john.jpeg"
+import adam from "../../../image/adam.jpeg"
 
 function Profile() {
     return (
       <div className="profile">
         <div className="pic">
-          <img src={John} alt="" />
+          <img src={adam} alt="" />
         </div>
         <p className="user-name">John Tayo</p>
         <i>

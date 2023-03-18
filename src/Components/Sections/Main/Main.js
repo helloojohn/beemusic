@@ -1,10 +1,20 @@
 import React from "react";
-import "../Main/Main.css";
+import "./Main.css";
+
+
+
+import { Banner } from "./Banner";
+import { Player } from "./Player";
+import { Playlist } from "./Playlist";
+import { Top } from "./Top";
 
 function Main() {
   return (
     <div className="main">
-      <h1>main</h1>
+      <Top />
+      <Banner />
+      <Playlist />
+      <Player />
     </div>
   );
 }

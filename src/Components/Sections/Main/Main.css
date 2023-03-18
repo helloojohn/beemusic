@@ -1,5 +1,212 @@
 .main {
-    background-color: rgb(217, 60, 12);
-    width: 40%;
+    height: 100vh;
+    flex-grow: 2;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
+
+/* ======= TOP START ======= */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.arrow i {
+    font-size: 20px;
+    display: flex;
+}
+
+.search {
+    width: 80%;
+    height: 40px;
+    position: relative;
+    color: #000000;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    padding-left: 45px;
+    color: #000000;
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+
+.search input::placeholder {
+    color: #848484;
+}
+
+.search i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+/* ======= TOP END======= */
+
+
+/* ======= BANNER START ======= */
+
+.banner {
+    height: 210px;
+    position: relative;
+}
+
+.head p, .playlist-title p{
+    color: #848484;
+    font-size: 14px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.title h2 {
+    font-size: 25px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more i {
+        margin-top: 6px;
+}
+
+
+.banner-body {
+    background: linear-gradient(234deg, transparent, rgba(255, 255, 255, 0.949) 69%),
+            url("../../../image/trending.png");
+    height: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 25px;
+    color: #848484;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.on-top {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 150px;
+}
+
+.banner-body-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.banner-button {
+    display: flex;
+    gap: 20px;
+}
+
+
+.play {
+    background-color: #000000;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 8px 16px;
+    text-align: center;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 2px solid transparent;
+}
+
+
+.play:hover,
+.play:focus {
+    background-color: #f7f7f7;
+    color: #111;
+    border: 2px solid #000000;
+}
+
+.follow {
+    background-color: #f7f7f7;
+    color: #111;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 8px 16px;
+    text-align: center;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+.banner-listeners {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.listen {
+    color: #0000007a;
+}
+
+
+/* ======= BANNER END ======= */
+
+
+/* ======= PLAYLIST START ======= */
+.playlist {
+    margin-top: 70px;
+}
+
+.playlist-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+/* ======= PLAYLIST END ======= */

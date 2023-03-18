@@ -5,8 +5,8 @@ import bees from "../../image/bees.svg";
 function Login() {
     const handleClick = () => {
         const client_id = "788ba24a7b1f4b1e9bcf77d1cf437c56";
-        // const redirect_uri = "https://beemus.netlify.app";
-        const redirect_uri = "http://localhost:3000/";
+        const redirect_uri = "https://beemus.netlify.app";
+        // const redirect_uri = "http://localhost:3000/";
         const api_url = "https://accounts.spotify.com/authorize";
         const scope = [
           "user-read-email",

@@ -19,11 +19,11 @@ function LeftMenu() {
               <span className="music">Bee</span>Music
             </h1>
           </div>
-          {/* <div className="menu-open">
+          <div className="menu-open">
             <i>
               <MdMenuOpen />
             </i>
-          </div> */}
+          </div>
         </div>
 
         <Menu
